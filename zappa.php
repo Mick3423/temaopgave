@@ -30,8 +30,51 @@
 <!-- Her skal sidens indhold ligge -->
 
 
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="images/vilmaLogo.png" alt="vilmalogo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Film
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Zappa</a></li>
+                        <li><a class="dropdown-item" href="#">You and me forever</a></li>
 
-<div class="container-sm">
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Byer
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Slagelse</a></li>
+                        <li><a class="dropdown-item" href="#">Sorø</a></li>
+                        <li><a class="dropdown-item" href="#">Dianalund</a></li>
+                        <li><a class="dropdown-item" href="#">Høng</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">kontakt os</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">om os</a>
+                </li>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container">
     <div><img src="images/zappa.jpg" class="img-fluid" alt="zappa"></div>
     <h1>Zappa</h1>
 
@@ -51,6 +94,11 @@
         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
             <div class="accordion-body">
                 8/4 2024
+                <ul>
+                    <li>
+                        19:30-21:10
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
@@ -63,6 +111,11 @@
         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div class="accordion-body">
               9/4 2024
+                <ul>
+                    <li>
+                        19:30-21:10
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
@@ -75,11 +128,46 @@
         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div class="accordion-body">
                 10/4 2024
+                <ul>
+                    <li>
+                        19:30-21:10
+                    </li>
+
+                </ul>
             </div>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                høng
+            </button>
+        </h2>
+        <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                11/4 2024
+                <ul>
+                    <li>
+                        19:30-21:10
+                    </li>
+                </ul>
+            </div>
+
+
         </div>
     </div>
 </div>
 
+
+<div class="  bg-secondary container-fluid  ">
+    <div class="row footer">
+        <div class="col-6"><a href="#">kontakt os</a> </div>
+        <div class="col-6"><a href="#">facebook</a></div>
+        <div class="col-6"><a href="#"> om os</a> </div>
+        <div class="col-6"><a href="#"> instagram</a></div>
+    </div>
+</div>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 

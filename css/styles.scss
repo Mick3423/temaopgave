@@ -9,7 +9,9 @@ $link-decoration: none;
 
 // 4. Include any default map overrides here
 $custom-colors: (
-	"primary": #c8935e ,
+	"primary": #c8935e,
+	"secondary": #000
+
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -17,3 +19,8 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+.container-fluid .footer{
+	min-height: 50px ;
+	color: white;
+--bs-link-color: none;
+}
