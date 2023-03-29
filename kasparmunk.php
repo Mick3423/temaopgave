@@ -39,9 +39,19 @@
 
         Han vil dele sin erfaring som manuskriptforfatter og give tips og tricks til alle, der ønsker at forbedre deres færdigheder inden for skrivning af manuskripter.
 
-        Han er en anerkendt dansk instruktør og manusforfatter, der har arbejdet på flere prisvindende film og tv-serier.    </p>
 
-    <a href="#" class=" btn bg-primary">læs mere her</a>
+    <p>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+            læs mere her
+        </button>
+    </p>
+    <div class="collapseknap">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-body collapseknap">
+                Han er en anerkendt dansk instruktør og manusforfatter, der har arbejdet på flere prisvindende film og tv-serier.
+            </div>
+        </div>
+    </div>
     <h3 class="text-center">hvor kan man møde Kaspar Munk</h3>
 </div>
 

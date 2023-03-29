@@ -37,7 +37,22 @@
 
     <p>”Zappa” er en dansk ungdomsfilm fra 1983, instrueret af Bille August og baseret på et manuskript af forfatteren Bjarne Reuter. Filmen tager os med tilbage til 1960'erne og følger en gruppe unge drenge og deres dag til dag narrestreger, som langsomt udvikler sig til slemmere ting.  </p>
 
-    <a href="#" class=" btn bg-primary">læs mere her</a>
+    <p>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+            læs mere her
+        </button>
+    </p>
+    <div class="collapseknap">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-body collapseknap">
+                Filmen er en fascinerende rejse gennem øjnene på en gruppe teenager drenge og viser os ungdommens oprør og søgen efter frihed og identitet. Zappa er også en film om venskab og kærlighed, som bliver sat på prøve i en tid, hvor samfundet og kulturen er under forandring.
+
+                Bille August formår at skildre 1960'ernes stemning og æstetik på en autentisk og imponerende måde, og skuespillerne leverer stærke præstationer, der gør, at man føler sig tæt knyttet til karaktererne.
+
+                Hvis du allerede har set Zappa, vil du helt sikkert finde glæde i at se den igen, da dens budskab stadigvæk er lige så vigtig i dag, som den var dengang. Zappa er en film, der vil appellere til alle, der elsker ungdommens idealisme og venskaber
+            </div>
+        </div>
+    </div>
     <h3 class="text-center">hvor spilles Zappa</h3>
 </div>
 

@@ -37,9 +37,21 @@
 
     <p> Bille august afholder et oplæg om at instruere film og hans tid som filminstruktør. Kom og få et kig bag kulisserne og få teknisk viden + tips og tricks.
 
-        Under oplægget vil Bille August tage publikum med på en rejse bag kameraet og vise, hvordan man skaber en film fra ide til færdigt produkt. Han vil også dele teknisk viden om kameraarbejde, lys, lyd og klipning samt give tips og tricks til, hvordan man som instruktør kan få det bedste ud af sit hold og sine skuespillere.   </p>
+          </p>
 
-    <a href="#" class=" btn bg-primary">læs mere her</a>
+
+    <p>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+            læs mere her
+        </button>
+    </p>
+    <div class="collapseknap">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-body collapseknap">
+                Under oplægget vil Bille August tage publikum med på en rejse bag kameraet og vise, hvordan man skaber en film fra ide til færdigt produkt. Han vil også dele teknisk viden.
+            </div>
+        </div>
+    </div>
     <h3 class="text-center">hvor kan man møde Bille August</h3>
 </div>
 

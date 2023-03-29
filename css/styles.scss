@@ -24,3 +24,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	color: white;
 --bs-link-color: none;
 }
+.collapseknap{
+	min-height: 120px;
+	width: 300px;
+}

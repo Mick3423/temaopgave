@@ -38,7 +38,22 @@
     <p>“You and me forever” er en ungdomsfilm fra 2012, som følger de to bedste veninder Laura og Christine. Idet de møder den interessante gådefulde Maria, bliver deres venskab sat på prøve.
         Filmen er ærlig, rå og sjov på samme tid og tager dig med ind i en verden af teenageproblemer, kærlighed og venskab.  </p>
 
-    <a href="#" class=" btn bg-primary">læs mere her</a>
+    <p>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+            læs mere her
+        </button>
+    </p>
+    <div class="collapseknap">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-body collapseknap">
+                “You and me forever” er fyldt med spænding, drama og autentisk skuespil, og den skildrer på ærlig vis de udfordringer og problemer, som unge mennesker står over for i dagens samfund. Filmen er både hjerteskærende og fascinerende på samme tid og giver dig et indblik i de håb og drømme, som fylder hos unge mennesker i dag.
+
+                Instruktøren Kaspar Munk skaber en rå og ærlig skildring af ungdommens psykologi og udfordringer, og skuespillerne leverer stærke præstationer, der vil røre selv den mest hårdføre seer.
+
+                Hvis du er fan af ungdomsfilm, eller hvis du bare gerne vil have en dybere forståelse af, hvad det vil sige at være ung i dagens samfund, så er “You and me forever” en film, der er værd at se igen.
+            </div>
+        </div>
+    </div>
     <h3 class="text-center">hvor spilles You and me</h3>
 </div>
 
